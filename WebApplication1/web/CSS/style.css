@@ -13,9 +13,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 }
 
 body {
-    background-color: red;
-    background: url('../Imagens/RDR2 background 2.jpg')no-repeat center center fixed;
+    background: url('../Imagens/RDR2 background 2.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    width: 100%;
+    padding: 15px 0;         /* Dá um respiro em cima e embaixo (opcional) */
+}
+
+.RDR2 {
+    max-width: 600px; /* Ajuste o tamanho da logo conforme preferir */
+    height: auto;     /* Mantém a proporção da imagem sem distorcer */
 }
 
 .div1 {
