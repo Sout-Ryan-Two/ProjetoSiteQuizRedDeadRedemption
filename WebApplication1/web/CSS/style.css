@@ -34,7 +34,21 @@ header {
     height: auto;     /* Mantém a proporção da imagem sem distorcer */
 }
 
+main {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    min-height: 80vh;        /* Dá altura ao main para que a centralização vertical funcione */
+}
+
 .div1 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7); /* Preto com 70% de opacidade */
+    border-radius: 15px;                  /* Bordas arredondadas */
+    padding: 25px;                        /* Espaçamento interno para o texto não colar nas bordas */
+    max-width: 800px;                     /* Limita a largura para formar um bloco harmonioso */
+    width: 90%;                           /* Garante que fique responsivo em telas menores */
+}
+
+.descricao {
     color: white;
 }
